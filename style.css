@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    display: block;
+    width: 20vw;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+label, input, select, button {
+    display: block;
+    margin: 2% auto;
+    height: 20px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+label {
+    margin-left: 10%;
+}
+
+input {
+    height: 30px;
+    width: 80%;
+}
+
+select {
+    margin-left: 10%;
+    height: 30px;
+    width: 80px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+
+#errors {
+    text-align: center;
+    color: red;
+}

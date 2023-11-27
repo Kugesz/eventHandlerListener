@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="nevInput">Név:</label>
+      <input type="text" id="nevInput" />
+
+      <label for="korInput">Kor:</label>
+      <input type="number" id="korInput" />
+
+      <label for="nemInput">Neme:</label>
+      <select id="nemInput">
+        <option value=""></option>
+        <option value="ferfi">Férfi</option>
+        <option value="no">Nő</option>
+        <option value="egyeb">Egyéb</option>
+      </select>
+      <button id="bekuldesButton" type="button" onclick="Bekuldes()">
+        Beküldés
+      </button>
+      <button id="torlesButton" type="button">Törlés</button>
+      <div id="errors"></div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
